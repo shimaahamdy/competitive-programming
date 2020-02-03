@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563109540 source:e:\learning\programming\problem solving\b. find the bone\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

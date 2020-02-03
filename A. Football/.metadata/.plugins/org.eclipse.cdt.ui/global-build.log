@@ -1,0 +1,23 @@
+19:46:39 **** Rebuild of configuration Debug for project A. Football ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Football.o" "..\\src\\A. Football.cpp" 
+g++ -o "A. Football.exe" "src\\A. Football.o" 
+19:47:14 **** Incremental Build of configuration Debug for project A. Football ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Football.o" "..\\src\\A. Football.cpp" 
+..\src\A. Football.cpp: In function 'int main()':
+..\src\A. Football.cpp:15:6: error: redeclaration of 'int n'
+  int n=0;
+      ^
+..\src\A. Football.cpp:14:18: note: 'int n' previously declared here
+  int s1c=0,s2c=0,n;
+                  ^
+19:47:45 **** Incremental Build of configuration Debug for project A. Football ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Football.o" "..\\src\\A. Football.cpp" 
+g++ -o "A. Football.exe" "src\\A. Football.o" 
+Info: Nothing to build for A. Football
+Info: Nothing to build for A. Football

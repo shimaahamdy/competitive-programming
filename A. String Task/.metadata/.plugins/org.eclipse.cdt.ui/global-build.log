@@ -1,0 +1,79 @@
+15:23:51 **** Rebuild of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:24:20 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:24:36 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:30:22 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:30:40 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:31:14 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:31:27 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+..\src\A. String Task.cpp: In function 'int main()':
+..\src\A. String Task.cpp:13:7: warning: unused variable 'a' [-Wunused-variable]
+  char a='A';
+       ^
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:32:42 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:32:57 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:38:42 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+..\src\A. String Task.cpp: In function 'int main()':
+..\src\A. String Task.cpp:24:13: warning: comparison with string literal results in unspecified behavior [-Waddress]
+    if(s[i]>="A" && s[i]<="Z")cout<<char(s[i]+32);
+             ^~~
+..\src\A. String Task.cpp:24:13: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+..\src\A. String Task.cpp:24:26: warning: comparison with string literal results in unspecified behavior [-Waddress]
+    if(s[i]>="A" && s[i]<="Z")cout<<char(s[i]+32);
+                          ^~~
+..\src\A. String Task.cpp:24:26: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]
+15:39:43 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:40:30 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+15:41:01 **** Incremental Build of configuration Debug for project A. String Task ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. String Task.o" "..\\src\\A. String Task.cpp" 
+g++ -o "A. String Task.exe" "src\\A. String Task.o" 
+Info: Nothing to build for A. String Task
+Info: Nothing to build for A. String Task

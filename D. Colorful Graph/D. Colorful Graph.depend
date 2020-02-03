@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1560431978 source:e:\learning\study groub v0.3beta\algorithms\d. colorful graph\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

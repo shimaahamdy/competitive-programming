@@ -1,0 +1,12 @@
+20:31:40 **** Rebuild of configuration Debug for project A. Brain's Photos ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Brain's Photos.o" "..\\src\\A. Brain's Photos.cpp" 
+g++ -o "A. Brain's Photos.exe" "src\\A. Brain's Photos.o" 
+20:31:53 **** Incremental Build of configuration Debug for project A. Brain's Photos ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Brain's Photos.o" "..\\src\\A. Brain's Photos.cpp" 
+g++ -o "A. Brain's Photos.exe" "src\\A. Brain's Photos.o" 
+Info: Nothing to build for A. Brain's Photos
+Info: Nothing to build for A. Brain's Photos

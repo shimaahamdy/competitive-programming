@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : .cpp
+// Author      : shimaahamdy
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	string a;
+	a="love";
+	int find=a.find('x');
+	cout<<find;
+	return 0;
+}

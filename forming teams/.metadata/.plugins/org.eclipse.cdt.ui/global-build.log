@@ -1,0 +1,128 @@
+22:04:33 **** Rebuild of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+22:06:05 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp:15:10: error: 'cur' was not declared in this scope
+ bool dfs(cur,par)
+          ^~~
+..\src\forming teams.cpp:15:14: error: 'par' was not declared in this scope
+ bool dfs(cur,par)
+              ^~~
+..\src\forming teams.cpp:15:17: error: expression list treated as compound expression in initializer [-fpermissive]
+ bool dfs(cur,par)
+                 ^
+..\src\forming teams.cpp: In function 'int main()':
+..\src\forming teams.cpp:30:19: error: expected primary-expression before 'vis'
+  vis =vector<bool>vis(n);
+                   ^~~
+..\src\forming teams.cpp:43:13: error: 'dfs' cannot be used as a function
+   if(dfs(i,0))
+             ^
+22:07:47 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp:15:10: error: 'cur' was not declared in this scope
+ bool dfs(cur,par)
+          ^~~
+..\src\forming teams.cpp:15:14: error: 'par' was not declared in this scope
+ bool dfs(cur,par)
+              ^~~
+..\src\forming teams.cpp:15:17: error: expression list treated as compound expression in initializer [-fpermissive]
+ bool dfs(cur,par)
+                 ^
+..\src\forming teams.cpp: In function 'int main()':
+..\src\forming teams.cpp:30:19: error: expected primary-expression before 'vis'
+  vis =vector<bool>vis(n);
+                   ^~~
+..\src\forming teams.cpp:43:13: error: 'dfs' cannot be used as a function
+   if(dfs(i,0))
+             ^
+22:08:50 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp: In function 'bool df(int, int)':
+..\src\forming teams.cpp:18:15: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<int>::size_type' {aka 'unsigned int'} [-Wsign-compare]
+  for(int i=0;i<graph[cur].size();++i)
+              ~^~~~~~~~~~~~~~~~~~
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+22:09:56 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+Info: Nothing to build for forming teams
+22:24:08 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp: In function 'int main()':
+..\src\forming teams.cpp:27:10: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+  int n=0,m=0,x,y;
+          ^
+..\src\forming teams.cpp:27:14: warning: unused variable 'x' [-Wunused-variable]
+  int n=0,m=0,x,y;
+              ^
+..\src\forming teams.cpp:27:16: warning: unused variable 'y' [-Wunused-variable]
+  int n=0,m=0,x,y;
+                ^
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file forming teams.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:25:09 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file forming teams.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:26:11 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file forming teams.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:33:18 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+Info: Nothing to build for forming teams
+Info: Nothing to build for forming teams
+22:41:25 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp: In function 'int main()':
+..\src\forming teams.cpp:27:10: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+  int n=0,m=0,x,y;
+          ^
+..\src\forming teams.cpp:27:14: warning: unused variable 'x' [-Wunused-variable]
+  int n=0,m=0,x,y;
+              ^
+..\src\forming teams.cpp:27:16: warning: unused variable 'y' [-Wunused-variable]
+  int n=0,m=0,x,y;
+                ^
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+Info: Nothing to build for forming teams
+Info: Nothing to build for forming teams
+22:42:55 **** Incremental Build of configuration Debug for project forming teams ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\forming teams.o" "..\\src\\forming teams.cpp" 
+..\src\forming teams.cpp: In function 'int main()':
+..\src\forming teams.cpp:27:10: warning: variable 'm' set but not used [-Wunused-but-set-variable]
+  int n=0,m=0,x,y;
+          ^
+..\src\forming teams.cpp:27:14: warning: unused variable 'x' [-Wunused-variable]
+  int n=0,m=0,x,y;
+              ^
+..\src\forming teams.cpp:27:16: warning: unused variable 'y' [-Wunused-variable]
+  int n=0,m=0,x,y;
+                ^
+g++ -o "forming teams.exe" "src\\forming teams.o" 
+Info: Nothing to build for forming teams

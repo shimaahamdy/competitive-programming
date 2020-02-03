@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1566778671 source:e:\learning\programming\problem solving\galou - galou is back!\main.cpp
+	<cstdio>
+	<cstring>
+	<iostream>
+

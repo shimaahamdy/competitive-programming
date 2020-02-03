@@ -1,0 +1,12 @@
+22:22:50 **** Rebuild of configuration Debug for project A. Is it rated ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Is it rated.o" "..\\src\\A. Is it rated.cpp" 
+g++ -o "A. Is it rated.exe" "src\\A. Is it rated.o" 
+22:23:16 **** Incremental Build of configuration Debug for project A. Is it rated ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Is it rated.o" "..\\src\\A. Is it rated.cpp" 
+g++ -o "A. Is it rated.exe" "src\\A. Is it rated.o" 
+Info: Nothing to build for A. Is it rated
+Info: Nothing to build for A. Is it rated

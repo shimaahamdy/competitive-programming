@@ -1,0 +1,31 @@
+00:25:58 **** Rebuild of configuration Debug for project A. Arpa’s hard exam and Mehrdad’s naive cheat ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" "..\\src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.cpp" 
+g++ -o "A. Arpa’s hard exam and Mehrdad’s naive cheat.exe" "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" 
+00:26:10 **** Incremental Build of configuration Debug for project A. Arpa’s hard exam and Mehrdad’s naive cheat ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" "..\\src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.cpp" 
+g++ -o "A. Arpa’s hard exam and Mehrdad’s naive cheat.exe" "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" 
+00:26:31 **** Incremental Build of configuration Debug for project A. Arpa’s hard exam and Mehrdad’s naive cheat ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" "..\\src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.cpp" 
+g++ -o "A. Arpa’s hard exam and Mehrdad’s naive cheat.exe" "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" 
+00:30:28 **** Incremental Build of configuration Debug for project A. Arpa’s hard exam and Mehrdad’s naive cheat ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" "..\\src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.cpp" 
+g++ -o "A. Arpa’s hard exam and Mehrdad’s naive cheat.exe" "src\\A. Arpa’s hard exam and Mehrdad’s naive cheat.o" 
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat
+Info: Nothing to build for A. Arpa’s hard exam and Mehrdad’s naive cheat

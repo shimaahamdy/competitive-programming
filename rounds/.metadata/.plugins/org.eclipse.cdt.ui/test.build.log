@@ -1,0 +1,9 @@
+15:44:46 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o test.exe "src\\test.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+15:44:46 Build Failed. 1 errors, 0 warnings. (took 172ms)
+

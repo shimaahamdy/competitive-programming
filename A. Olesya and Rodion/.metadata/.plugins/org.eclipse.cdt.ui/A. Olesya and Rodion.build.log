@@ -1,0 +1,10 @@
+00:18:58 **** Incremental Build of configuration Debug for project A. Olesya and Rodion ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Olesya and Rodion.o" "..\\src\\A. Olesya and Rodion.cpp" 
+g++ -o "A. Olesya and Rodion.exe" "src\\A. Olesya and Rodion.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file A. Olesya and Rodion.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+00:18:58 Build Failed. 1 errors, 0 warnings. (took 514ms)
+

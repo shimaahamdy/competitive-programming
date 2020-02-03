@@ -1,0 +1,12 @@
+18:54:20 **** Rebuild of configuration Debug for project A. Case of the Zeros and Ones ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Case of the Zeros and Ones.o" "..\\src\\A. Case of the Zeros and Ones.cpp" 
+g++ -o "A. Case of the Zeros and Ones.exe" "src\\A. Case of the Zeros and Ones.o" 
+18:54:34 **** Incremental Build of configuration Debug for project A. Case of the Zeros and Ones ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Case of the Zeros and Ones.o" "..\\src\\A. Case of the Zeros and Ones.cpp" 
+g++ -o "A. Case of the Zeros and Ones.exe" "src\\A. Case of the Zeros and Ones.o" 
+Info: Nothing to build for A. Case of the Zeros and Ones
+Info: Nothing to build for A. Case of the Zeros and Ones

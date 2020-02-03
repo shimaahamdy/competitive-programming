@@ -1,0 +1,67 @@
+20:54:53 **** Rebuild of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 
+20:55:06 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+..\src\A. Calculating Function.cpp: In function 'int main()':
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+        scanf("%d",&n);
+              ^~~~ ~~
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 
+20:56:36 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+..\src\A. Calculating Function.cpp: In function 'int main()':
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+        scanf("%d",&n);
+              ^~~~ ~~
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 
+20:57:07 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+..\src\A. Calculating Function.cpp: In function 'int main()':
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+        scanf("%d",&n);
+              ^~~~ ~~
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 
+Info: Nothing to build for A. Calculating Function
+Info: Nothing to build for A. Calculating Function
+Info: Nothing to build for A. Calculating Function
+Info: Nothing to build for A. Calculating Function
+Info: Nothing to build for A. Calculating Function
+21:03:58 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+..\src\A. Calculating Function.cpp: In function 'int main()':
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+        scanf("%d",&n);
+              ^~~~ ~~
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+..\src\A. Calculating Function.cpp:17:19: error: expected primary-expression before 'long'
+        else cout<<long long int (x+1);
+                   ^~~~
+21:04:22 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+..\src\A. Calculating Function.cpp: In function 'int main()':
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+        scanf("%d",&n);
+              ^~~~ ~~
+..\src\A. Calculating Function.cpp:14:14: warning: format '%d' expects argument of type 'int*', but argument 2 has type 'long long int*' [-Wformat=]
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 
+21:06:06 **** Incremental Build of configuration Debug for project A. Calculating Function ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\A. Calculating Function.o" "..\\src\\A. Calculating Function.cpp" 
+g++ -o "A. Calculating Function.exe" "src\\A. Calculating Function.o" 

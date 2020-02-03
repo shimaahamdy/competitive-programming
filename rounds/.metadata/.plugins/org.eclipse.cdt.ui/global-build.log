@@ -1,0 +1,209 @@
+13:14:16 **** Rebuild of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\a_seabattle.o" "..\\src\\a_seabattle.cpp" 
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+13:14:31 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\a_seabattle.o" "..\\src\\a_seabattle.cpp" 
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+Info: Nothing to build for a_seabattle
+Info: Nothing to build for a_seabattle
+Info: Nothing to build for a_seabattle
+14:17:59 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\a_seabattle.o" "..\\src\\a_seabattle.cpp" 
+..\src\a_seabattle.cpp: In function 'int main()':
+..\src\a_seabattle.cpp:21:15: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  for(int i=0;i<n;++i)cin>>arr[i];
+              ~^~
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file a_seabattle.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:18:26 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\a_seabattle.o" "..\\src\\a_seabattle.cpp" 
+..\src\a_seabattle.cpp: In function 'int main()':
+..\src\a_seabattle.cpp:21:15: warning: 'n' is used uninitialized in this function [-Wuninitialized]
+  for(int i=0;i<n;++i)cin>>arr[i];
+              ~^~
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file a_seabattle.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:18:50 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\a_seabattle.o" "..\\src\\a_seabattle.cpp" 
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file a_seabattle.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:19:00 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file a_seabattle.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:56:14 **** Incremental Build of configuration Debug for project a_seabattle ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o a_seabattle.exe "src\\a_seabattle.o" 
+14:56:19 **** Rebuild of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+g++ -o test.exe "src\\test.o" 
+Info: Nothing to build for a_seabattle
+14:58:13 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+g++ -o test.exe "src\\test.o" 
+Info: Nothing to build for test
+Info: Nothing to build for test
+15:41:06 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+..\src\test.cpp: In function 'int main()':
+..\src\test.cpp:15:33: error: invalid types 'int[int]' for array subscript
+  for(int i= 0;i<n;++i)cin>>arr[i];
+                                 ^
+..\src\test.cpp:16:2: error: 'sort' was not declared in this scope
+  sort(arr,arr+n);
+  ^~~~
+..\src\test.cpp:16:2: note: suggested alternative: 'qsort'
+  sort(arr,arr+n);
+  ^~~~
+  qsort
+..\src\test.cpp:17:33: error: invalid types 'int[int]' for array subscript
+  for(int i=0;i<n;++i)cout<<arr[i]<<" ";
+                                 ^
+15:41:31 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+..\src\test.cpp: In function 'int main()':
+..\src\test.cpp:16:33: error: invalid types 'int[int]' for array subscript
+  for(int i= 0;i<n;++i)cin>>arr[i];
+                                 ^
+..\src\test.cpp:18:33: error: invalid types 'int[int]' for array subscript
+  for(int i=0;i<n;++i)cout<<arr[i]<<" ";
+                                 ^
+In file included from c:\mingw\include\c++\8.1.0\bits\stl_algobase.h:71,
+                 from c:\mingw\include\c++\8.1.0\bits\char_traits.h:39,
+                 from c:\mingw\include\c++\8.1.0\ios:40,
+                 from c:\mingw\include\c++\8.1.0\ostream:38,
+                 from c:\mingw\include\c++\8.1.0\iostream:39,
+                 from ..\src\test.cpp:9:
+c:\mingw\include\c++\8.1.0\bits\predefined_ops.h: In instantiation of 'constexpr bool __gnu_cxx::__ops::_Iter_less_iter::operator()(_Iterator1, _Iterator2) const [with _Iterator1 = int; _Iterator2 = int]':
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1847:14:   required from 'void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1885:25:   required from 'void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1971:31:   required from 'void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:4834:18:   required from 'void std::sort(_RAIter, _RAIter) [with _RAIter = int]'
+..\src\test.cpp:17:16:   required from here
+c:\mingw\include\c++\8.1.0\bits\predefined_ops.h:43:16: error: invalid type argument of unary '*' (have 'int')
+       { return *__it1 < *__it2; }
+                ^~~~~~
+c:\mingw\include\c++\8.1.0\bits\predefined_ops.h:43:25: error: invalid type argument of unary '*' (have 'int')
+       { return *__it1 < *__it2; }
+                         ^~~~~~
+In file included from c:\mingw\include\c++\8.1.0\algorithm:62,
+                 from c:\mingw\include\c++\8.1.0\i686-pc-mingw32\bits\stdc++.h:65,
+                 from ..\src\test.cpp:10:
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h: In instantiation of 'void std::__insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]':
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1885:25:   required from 'void std::__final_insertion_sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1971:31:   required from 'void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:4834:18:   required from 'void std::sort(_RAIter, _RAIter) [with _RAIter = int]'
+..\src\test.cpp:17:16:   required from here
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1850:3: error: no type named 'value_type' in 'struct std::iterator_traits<int>'
+   __val = _GLIBCXX_MOVE(*__i);
+   ^~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1852:8: error: invalid type argument of unary '*' (have 'int')
+        *__first = _GLIBCXX_MOVE(__val);
+        ^~~~~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1850:3: error: no type named 'value_type' in 'struct std::iterator_traits<int>'
+   __val = _GLIBCXX_MOVE(*__i);
+   ^~~~~
+In file included from c:\mingw\include\c++\8.1.0\bits\stl_algo.h:61,
+                 from c:\mingw\include\c++\8.1.0\algorithm:62,
+                 from c:\mingw\include\c++\8.1.0\i686-pc-mingw32\bits\stdc++.h:65,
+                 from ..\src\test.cpp:10:
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h: In instantiation of 'void std::__make_heap(_RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]':
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1672:23:   required from 'void std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1933:25:   required from 'void std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1948:27:   required from 'void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = int; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1968:25:   required from 'void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:4834:18:   required from 'void std::sort(_RAIter, _RAIter) [with _RAIter = int]'
+..\src\test.cpp:17:16:   required from here
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:330:4: error: no type named 'value_type' in 'struct std::iterator_traits<int>'
+    _ValueType;
+    ^~~~~~~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:332:4: error: no type named 'difference_type' in 'struct std::iterator_traits<int>'
+    _DistanceType;
+    ^~~~~~~~~~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h: In instantiation of 'void std::__pop_heap(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare&) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]':
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1675:19:   required from 'void std::__heap_select(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1933:25:   required from 'void std::__partial_sort(_RandomAccessIterator, _RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1948:27:   required from 'void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = int; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1968:25:   required from 'void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:4834:18:   required from 'void std::sort(_RAIter, _RAIter) [with _RAIter = int]'
+..\src\test.cpp:17:16:   required from here
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:247:2: error: no type named 'value_type' in 'struct std::iterator_traits<int>'
+  _ValueType;
+  ^~~~~~~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:249:2: error: no type named 'difference_type' in 'struct std::iterator_traits<int>'
+  _DistanceType;
+  ^~~~~~~~~~~~~
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:252:7: error: invalid type argument of unary '*' (have 'int')
+       *__result = _GLIBCXX_MOVE(*__first);
+       ^~~~~~~~~
+In file included from c:\mingw\include\c++\8.1.0\bits\nested_exception.h:40,
+                 from c:\mingw\include\c++\8.1.0\exception:144,
+                 from c:\mingw\include\c++\8.1.0\ios:39,
+                 from c:\mingw\include\c++\8.1.0\ostream:38,
+                 from c:\mingw\include\c++\8.1.0\iostream:39,
+                 from ..\src\test.cpp:9:
+c:\mingw\include\c++\8.1.0\bits\stl_heap.h:252:19: error: invalid type argument of unary '*' (have 'int')
+       *__result = _GLIBCXX_MOVE(*__first);
+                   ^~~~~~~~~~~~~
+In file included from c:\mingw\include\c++\8.1.0\bits\char_traits.h:39,
+                 from c:\mingw\include\c++\8.1.0\ios:40,
+                 from c:\mingw\include\c++\8.1.0\ostream:38,
+                 from c:\mingw\include\c++\8.1.0\iostream:39,
+                 from ..\src\test.cpp:9:
+c:\mingw\include\c++\8.1.0\bits\stl_algobase.h: In instantiation of 'void std::iter_swap(_ForwardIterator1, _ForwardIterator2) [with _ForwardIterator1 = int; _ForwardIterator2 = int]':
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:84:20:   required from 'void std::__move_median_to_first(_Iterator, _Iterator, _Iterator, _Iterator, _Compare) [with _Iterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1921:34:   required from '_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1953:38:   required from 'void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size, _Compare) [with _RandomAccessIterator = int; _Size = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:1968:25:   required from 'void std::__sort(_RandomAccessIterator, _RandomAccessIterator, _Compare) [with _RandomAccessIterator = int; _Compare = __gnu_cxx::__ops::_Iter_less_iter]'
+c:\mingw\include\c++\8.1.0\bits\stl_algo.h:4834:18:   required from 'void std::sort(_RAIter, _RAIter) [with _RAIter = int]'
+..\src\test.cpp:17:16:   required from here
+c:\mingw\include\c++\8.1.0\bits\stl_algobase.h:148:12: error: invalid type argument of unary '*' (have 'int')
+       swap(*__a, *__b);
+            ^~~~
+c:\mingw\include\c++\8.1.0\bits\stl_algobase.h:148:18: error: invalid type argument of unary '*' (have 'int')
+       swap(*__a, *__b);
+                  ^~~~
+15:41:55 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+g++ -o test.exe "src\\test.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:42:27 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\test.o" "..\\src\\test.cpp" 
+g++ -o test.exe "src\\test.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:44:46 **** Incremental Build of configuration Debug for project test ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+g++ -o test.exe "src\\test.o" 
+c:/mingw/bin/../lib/gcc/i686-pc-mingw32/8.1.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot open output file test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status

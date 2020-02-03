@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1562174111 source:e:\learning\programming\problem solving\b. keyboard\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

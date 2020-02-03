@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1565206141 source:e:\learning\programming\problem solving\c. barcode\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
