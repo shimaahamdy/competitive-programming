@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587076697 source:e:\learning\programming\ps\spoj chocola - chocolate\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

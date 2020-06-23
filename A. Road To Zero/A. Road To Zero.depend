@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587912766 source:e:\learning\programming\ps\a. road to zero\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
